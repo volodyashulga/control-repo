@@ -13,6 +13,7 @@ class profile::base {
     owner => 'root',
     group => 'root',
     mode => '0644',
+  }
 
   # Create user volodya
   user { 'volodya':
