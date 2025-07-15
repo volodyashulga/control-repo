@@ -1,3 +1,3 @@
 node 'puppetagent1.localdomain' {
-  include profile::base
+  include profiles::base
 }
