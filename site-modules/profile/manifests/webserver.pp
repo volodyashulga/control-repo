@@ -13,4 +13,5 @@ class profile::webserver {
     owner => 'www-data',
     group => 'www-data',
     mode => '0644',
+  }
 }
