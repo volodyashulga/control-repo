@@ -4,7 +4,7 @@ class profile::webserver {
     default_vhost => false,
   }
   apache::vhost { 'vhost.example.com':
-    port => '80',
+    port => 80,
     docroot => '/var/www/html',
   }
   file { '/var/www/html/index.html':
