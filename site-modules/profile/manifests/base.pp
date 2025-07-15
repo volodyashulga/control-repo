@@ -1,4 +1,4 @@
-class profiles::base {
+class profile::base {
   notify {'Applying profile::base to this node!': }
 
   # Make sure vim is installed
