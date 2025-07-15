@@ -1,4 +1,4 @@
-class profile::webserver {
+class profile::web {
   # Apache class
   class { 'apache':
     default_vhost => false,
