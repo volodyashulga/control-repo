@@ -17,4 +17,4 @@ class profile::firewall {
     ensure => 'present',
     zone => 'public',
   }
-
+}
