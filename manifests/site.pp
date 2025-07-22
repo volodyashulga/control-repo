@@ -1,4 +1,5 @@
 node 'puppetagent1.localdomain' {
   include profile::base
   include profile::web
+  include profile::firewall
 }
