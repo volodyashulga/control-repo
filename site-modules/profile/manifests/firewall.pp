@@ -1,4 +1,6 @@
 class profile::firewall {
+  notify { 'Running firewall':}
+    
   class { 'firewalld':
     install_gui => false,
     service_enable => true,
