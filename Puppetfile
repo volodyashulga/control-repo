@@ -5,8 +5,8 @@ mod 'puppetlabs-augeas_core', '1.5.0'
 
 #Modules
 mod 'puppetlabs-firewall', '8.1.7'
-#mod 'puppet-firewalld', '5.1.0'
-mod 'firewalld',
-  :git => 'https://github.com/crayfishx/puppet-firewalld.git',
-  :ref => '5.1.0'
+mod 'puppet-firewalld', '5.0.0'
+#mod 'firewalld',
+#  :git => 'https://github.com/crayfishx/puppet-firewalld.git',
+#  :ref => '5.1.0'
 mod 'puppetlabs-apache', '12.3.1'
