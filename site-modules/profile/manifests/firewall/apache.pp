@@ -1,4 +1,4 @@
-class profile::firewall {
+class profile::firewall::apache {
   notify { 'Running firewall':}
     
   class { 'firewalld':
