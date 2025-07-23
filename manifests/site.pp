@@ -1,5 +1,8 @@
 node 'puppetagent1.localdomain' {
-  include profile::base
-  include profile::web
-  include profile::firewall
+  include role::webserver
+}
+
+
+node 'puppetagent2.localdomain' {
+  include role::database
 }
