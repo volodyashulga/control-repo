@@ -9,7 +9,7 @@ class profile::firewall {
   }
 
   # Allow ssh
-  firewalld::service {
+  firewalld::service { 'ssh':
     ensure => 'present',
     zone => 'public',
   }
